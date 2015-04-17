@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Butler
+        psr4_prefix: Butler
+        src_path: app

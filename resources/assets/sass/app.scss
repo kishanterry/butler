@@ -1,0 +1,25 @@
+$btn-font-weight: 			400;
+$font-family-sans-serif: 	"Roboto", Helvetica, Arial, sans-serif;
+
+$brand-primary: 			darken(#044c0f, 6.5%) !default; // #337ab7
+$brand-danger: 				#d9191b !default;
+
+$border-radius-base:        3px !default;
+$border-radius-large:       3px !default;
+$border-radius-small:       3px !default;
+
+@import "bootstrap/bootstrap";
+@import "partials/nav";
+@import "partials/message";
+
+body, label, .checkbox label {
+	font-weight: 300;
+
+	a {
+		color: #12950f;
+	}
+}
+
+h1.page-header {
+	border-bottom: 3px solid darken(#044c0f, 6.5%);
+}

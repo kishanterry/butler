@@ -1,0 +1,66 @@
+.message-inbox {
+	height: 500px;
+	overflow-y: scroll;
+	overflow-x: auto;
+
+	.list-group-item {
+		padding: 0;
+	}
+
+	.inbox-entry {
+		padding: 10px 15px;
+		cursor: pointer;
+
+	}
+	.inbox-entry:hover {
+		background: rgba(#cdcdcd, 0.5);
+	}
+
+	.current {
+		background: #377098;
+		color: white;
+	}
+	.current:hover {
+		background: #34678c;
+	}
+
+	.loading {
+		font-size: 30px;
+		text-align: center;
+		padding-top: 10px;
+	}
+}
+
+.message-details {
+	height: 350px;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+.compose-form {
+	position: relative;
+
+	.compose-area {
+		height: 100px !important;
+	}
+
+	.compose-submit {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		z-index: 10000;
+	}
+
+	.form-control-square {
+		border-radius: 0;
+		border: none;
+		border-bottom: 1px solid #cccccc;
+	}
+
+	.compose-to {
+	}
+}
+
+.no-resize {
+	resize: vertical;
+}
