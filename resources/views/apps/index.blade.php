@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container" ng-app="butler" ng-controller="AppsController">
+<div class="container" ng-app="butler" ng-controller="AppsController" ng-cloak>
     <h1 class="page-header"><i class="fa fa-cube"></i> My Apps</h1>
     <div class="row">
         <div class="col-md-8">

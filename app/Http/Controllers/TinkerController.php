@@ -1,7 +1,6 @@
 <?php namespace Butler\Http\Controllers;
 
 use Butler\Http\Requests;
-use Butler\Models\Message;
 use Butler\Services\ButlerPusher;
 
 class TinkerController extends Controller
