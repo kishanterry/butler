@@ -16,9 +16,9 @@ class TinkerController extends Controller
     {
         // Testing Butler
         $api_url = route('apiv1.publish');
-        $app_id = '10ynvd32';
-        $app_key = 'edf60fd74b03f5e236c6b5b58e17e373b9026064';
-        $app_secret = 'f5655bef79378ccdda504c1cceb5359a217b742e';
+        $app_id = 'pvwx6wkg';
+        $app_key = 'bf24e885728d39b27ccb286a57b19f4dbaa35e90';
+        $app_secret = '0c8709a900099b0a5b9ef0d44a35e48aebf8b78e';
 
         $channel = 'MyChannel';
         $event = 'something_happened';
